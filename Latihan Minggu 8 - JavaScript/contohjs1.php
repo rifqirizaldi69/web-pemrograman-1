@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Latihan Hari Ini</h2>
+    <p id="demo">Hai Dunia!</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript'"
+    >
+      klik ini
+    </button>
+    <br />
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.fontSize = '100px'"
+    >
+      Ubah Ukuran
+    </button>
+
+    <br />
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.display = 'none'"
+    >
+      Hide
+    </button>
+    <br />
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.display = 'Block'"
+    >
+      Show
+    </button>
+    <br />
+    <script type="text/javascript"></script>
+  </body>
+</html>
